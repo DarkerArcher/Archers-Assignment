@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ayo's Profile</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Ayo's Profile</h1>
+          </div>
+        <nav class="topnav">
+            <ul>
+                <a href="#summary"><li>
+                    Summary
+                </li></a>
+                <a href="#education"><li>
+                    Education
+                </li></a>
+                <a href="#job"><li>
+                    Job Experiences
+                </li></a>
+                <a href="#hobbies"><li>
+                    Hobbies
+                </li></a>
+                <a href="#contact"><li>
+                    Contact Us
+                </li></a>
+                <a href="./register.html"><li>
+                    Register
+                </li></a>
+                <a href="./login.html"><li>
+                    Login
+                </li></a>
+                <a href="./calculator.html"><li>
+                    Calculator
+                </li></a>
+                <a href="./calc.html"><li>
+                    Calculator (Flexbox)
+                </li></a>
+            </ul>
+        </nav>
+        <div id="summary">
+            <h1>Summary</h1>
+            <img src="L36A9557-copy.JPG" alt="A photo of Ayo" style="width: 400px;height:400px;">
+            <h2>Who Are You?</h2>
+            <p>My name is <b>Ayodola Otutuloro</b>. I'm 23 years old, and I'm studying to be a software engineer.</p>
+            <h3>Goals</h3>
+            <li>Become a better developer</li>
+            <li>Improve my JavaScript</li>
+            <li>Get a good, well-paying job</li>
+        </div>
+        <div id="education">
+            <h1>Education</h1>
+            <p>AltSchool Africa. <span class="bold">Class of 2023.</span></p>
+            <p>University of Lagos. <span class="bold">LL.B, Class of 2020.</span></p>
+            <p>King's College, Lagos. <span class="bold">Class of 2014.</span></p>
+        </div>
+        <div id="job">
+            <h1>Job Experiences</h1>
+            <p>Freelance Writer; TimeTales <span class="bold">Jan - March 2022.</span></p>
+            <p>Writer/Analyst; Total Football Analysis <span class="bold">Dec 2019 - Feb 2020</span></p>
+            <p>Legal Intern; Aluko & Oyebode <span class="bold">Nov - Dec 2018</span></p>
+        </div>
+        <div id="hobbies">
+            <h1>Hobbies</h1>
+            <ul>
+                <li>Sports, especially football.</li>
+                <li>Movies.</li>
+                <li>Music.</li>
+                <li>Comic books.</li>
+            </ul>
+        </div>
+        <div id="contact">
+            <h1>Contact Us</h1>
+                    <form>
+                        <label for="fname">Name:</label>
+                        <input type="text" id="fname" name="fname" required>
+                        <label for="fname">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="priority">Priority:</label>
+                        <select id="priority" name="priority">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                        <option value="urgent">Urgent</option>
+                        </select><br><br>
+                        <label for="message">Feedback:</label><br>
+                        <textarea id="feedback" name="Feedback" rows="6" cols="50"></textarea><br>
+                        <input type="submit" id="submit" name="Submit">
+                    </form>
+        </div>
+    </body>
+</html>

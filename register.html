@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Register</title>
+  <link href="register.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <nav class="topnav">
+        <ul>
+            <a href="./index.html"><li>
+               About Me
+            </li></a>
+            <a href="./index.html#contact"><li>
+                Contact Us
+            </li></a>
+            <a href="./login.html"><li>
+                Login
+            </li></a>
+            <a href="./calculator.html"><li>
+                Calculator
+            </li></a>
+            <a href="./calc.html"><li>
+                Calculator (Flexbox)
+            </li></a>
+        </ul>
+    </nav>
+    <div class="header">Register</div>
+    <div class="regForm">
+        <form action="#">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" required> <br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" required> <br>
+            <label for="number">Phone Number:</label><br>
+            <input type="tel" id="tel" name="number" required pattern="[0-9]{4}[0-9]{3}[0-9]{4}"> <br>
+            <label for="gender">Gender:</label><br>
+            <select id="gender" name="gender" required>
+            <option value="male">Man</option>
+            <option value="female">Woman</option>
+            <option value="trans">Transgender</option>
+            <option value="enby">Non-binary/non-conforming</option>
+            <option value="none">Prefer not to respond</option>
+            </select><br>
+            <label for="country">Country:</label><br>
+            <input type="text" id="country" name="country" required> <br>
+            <label for="state">State/Province:</label><br>
+            <input type="text" id="state" name="state" required> <br>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required> <br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required> <br>
+            <label for="confirm">Confirm Password</label><br>
+            <input type="password" id="confirm" name="confirm" required> <br>
+            <input type="submit" id="submit" name="Register" value="Register">
+        </form>
+    </div>
+</body>
+
+
+</html>
